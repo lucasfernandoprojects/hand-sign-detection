@@ -1,0 +1,19 @@
+path: /content/datasets/MyDrive/machine-learning/computer-vision/hand-seal-detection/data/ # dataset root dir
+train: images/train
+val: images/val
+test: images/test
+
+# Classes
+names:
+  0: Saru (monkey)
+  1: Tatsu (dragon)
+  2: Ne (rat)
+  3: Tori (bird)
+  4: Mi (snake)
+  5: Ushi (ox)
+  6: Inu (dog)
+  7: Uma (horse)
+  8: Tora (tiger)
+  9: I (boar)
+  10: Hitsuji (ram)
+  11: U (hare)
