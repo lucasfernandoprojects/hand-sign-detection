@@ -4,7 +4,7 @@ In this repository, you will find an AI project that aims to detect Naruto's han
 
 ![A man doing hand gestures in front of a webcam.](https://github.com/lucasfernandoprojects/hand-sign-detection/blob/main/gifs/giphy.gif)
 
-##Introduction
+## Introduction
 
 Since I discovered the world of computer vision, I’ve been fascinated by how it works and the cool projects you can build with it. If you’ve ever watched Naruto, you probably remember the hands seals, right? It's a concept of controlling the five elements using hand gestures, as you can see in the image below:
 
