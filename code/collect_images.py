@@ -1,7 +1,13 @@
+# Author: Lucas Fernando
+# Project: Hands Seals Detection
+# Project repository: https://github.com/lucasfernandoprojects/hand-sign-detection
+# This script was used to create the dataset. It requires you have a webcam connected to your PC.
+# The code will take 100 pictures of each class and save them on the specified directory.
+
 from os import path, makedirs
 from cv2 import VideoCapture, putText, imshow, waitKey, imwrite, destroyAllWindows, FONT_HERSHEY_SIMPLEX, LINE_AA
 
-number_of_classes = 1 # Number of hand signs (seals)
+number_of_classes = 12 # Number of hands seals
 dataset_size = 100 # Number of photos for each class
 data_directory = '../data/'
 camera_index = 0
