@@ -45,4 +45,10 @@ If you open one of these annotation files, you’ll see five numbers arranged in
 
 ![Annotation of the photo 6 class 0.](https://github.com/lucasfernandoprojects/hand-sign-detection/blob/main/photos-readme/annotation-of-img-6-class-0.jpg)
 
-A detailed tutorial about this project was posted on [YouTube](https://www.youtube.com/watch?v=mIE9g0209xk&t=6s).
+With the data labeled, I was ready to train the model. This was the most time-consuming part of the project. I tried several approaches to find the best solution.
+
+After days of trial and error, I decided to use [YOLO](https://docs.ultralytics.com/) (You Only Look Once), a real-time object detection algorithm. YOLO is built on a deep CNN architecture and is known for its high accuracy and reliability. Applying YOLO to my dataset solved the hand seal detection problem effectively.
+
+Once the model was trained, I downloaded it and wrote a Python script to use the AI with my webcam in real-time, displaying the predictions on the screen.
+
+A detailed tutorial about this project was posted on [YouTube](https://www.youtube.com/watch?v=mIE9g0209xk&t=6s). Hope you find it helpful :)
