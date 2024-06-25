@@ -10,7 +10,7 @@ Since I discovered the world of computer vision, I’ve been fascinated by how i
 
 ![Kakashi Hatake performing hand gestures and creating a chidori - lightning sword](https://github.com/lucasfernandoprojects/hand-sign-detection/blob/main/photos-readme/kakashi-performing-chidori.gif)
 
-During my AI studies, I thought, what if I could create a computer vision system that recognizes these hands seals in real-time? Well, that’s exactly what I did, and this repository contains all coding I created to reach this goal.
+During my AI studies, I thought: what if I could create a computer vision system that recognizes these hands seals in real-time? Well, that’s exactly what I did, and this repository contains all coding I created to reach this goal.
 
 ## Context
 
