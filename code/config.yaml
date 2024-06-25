@@ -1,4 +1,9 @@
-path: /content/datasets/MyDrive/machine-learning/computer-vision/hand-seal-detection/data/ # dataset root dir
+# Author: Lucas Fernando
+# Project: Hands Seals Detection
+# Project repository: https://github.com/lucasfernandoprojects/hand-sign-detection
+# This config file tells the YOLO model where is located the dataset and what classes it will learn.
+
+path: YOUR_DATASET_ROOT_PATH
 train: images/train
 val: images/val
 test: images/test
