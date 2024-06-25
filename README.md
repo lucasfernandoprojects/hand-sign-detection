@@ -62,4 +62,6 @@ The directories _training-results_ and _validation-results_ contain some predict
 
 ![Validation results - val_batch2_pred](https://github.com/lucasfernandoprojects/hand-sign-detection/blob/main/validation-results/val_batch2_pred.jpg)
 
-Finally, I posted a detailed tutorial about this project on [YouTube](https://www.youtube.com/watch?v=mIE9g0209xk&t=6s). Hope you find it helpful :)
+Finally, I posted a detailed tutorial about this project on [YouTube](https://www.youtube.com/watch?v=mIE9g0209xk&t=6s). The model is also available on ![Roboflow](https://universe.roboflow.com/youtube-projects/hands-seals-naruto/model/1?image=https%3A%2F%2Fsource.roboflow.com%2FC0m68r4PmWUGW8LAISizY8ysmev2%2FXMgRhuXiBrZe1nJ10glN%2Foriginal.jpg) - a platform for Computer Vision developers. The best part of Roboflow is that you can make predictions without running any code on your computer. Just upload your own photos and have fun. 
+
+I hope you find this explanation helpful :)
