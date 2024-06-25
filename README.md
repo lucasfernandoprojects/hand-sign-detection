@@ -56,7 +56,7 @@ Once the model was finished, I downloaded it and wrote a Python script to use th
 
 It was a cool project that taught me a lot about Computer Vision and how AI models are built. It took about a week to be finished, but I spent most of the time studying and writing code that didn't work. With the guidance I provided above, you should be able to create your own model in a few hours.
 
-The directories _training-results_ and _validation-results_ contains some predictions the model performed during training on the training and validation dataset, as you can see right below. The training dataset was augmentated - it means new images were producted from the original ones to add variety to the training set and, therefore, avoid over-fitting.
+The directories _training-results_ and _validation-results_ contain some predictions the model performed during training on the training and validation datasets, as you can see right below. The training dataset was augmentated - it means new images were producted from the original ones to add variety to the training set and, therefore, avoid over-fitting.
 
 ![Training results - train_batch2642](https://github.com/lucasfernandoprojects/hand-sign-detection/blob/main/training-results/train_batch2642.jpg)
 
