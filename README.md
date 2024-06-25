@@ -41,4 +41,8 @@ I uploaded the images to CVAT, labeled them according to the hand seal it repres
 ![CVAT tasks.](https://github.com/lucasfernandoprojects/hand-sign-detection/blob/main/gifs/cvat-tasks.jpg)
 ![CVAT annotation of the first photo of the eighth class.](https://github.com/lucasfernandoprojects/hand-sign-detection/blob/main/gifs/cvat-annotation-class-7.jpg)
 
+If you open one of these annotation files, you’ll see five numbers arranged in one line. The first value represents the class (the hand seal). The second and third numbers are the coordinates of the bounding box center, while the fourth and fifth values represent the width and height of the box.
+
+![Annotation of the photo 6 class 0.]()
+
 A detailed tutorial about this project was posted on [YouTube](https://www.youtube.com/watch?v=mIE9g0209xk&t=6s).
