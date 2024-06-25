@@ -38,7 +38,7 @@ Next, I needed to label the data. When working with object recognition, you must
 
 I uploaded the images to CVAT, labeled them according to the hand seal it represented, and then exported the annotations into the YOLO format.
 
-![CVAT tasks.]()
-![CVAT annotation of the first photo of the eighth class.]()
+![CVAT tasks.](https://github.com/lucasfernandoprojects/hand-sign-detection/blob/main/gifs/cvat-tasks.jpg)
+![CVAT annotation of the first photo of the eighth class.](https://github.com/lucasfernandoprojects/hand-sign-detection/blob/main/gifs/cvat-annotation-class-7.jpg)
 
 A detailed tutorial about this project was posted on [YouTube](https://www.youtube.com/watch?v=mIE9g0209xk&t=6s).
