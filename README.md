@@ -62,4 +62,4 @@ The directories _training-results_ and _validation-results_ contains some predic
 
 ![Validation results - val_batch2_pred](https://github.com/lucasfernandoprojects/hand-sign-detection/blob/main/validation-results/val_batch2_pred.jpg)
 
-Furthermore, I posted a detailed tutorial about this project on [YouTube](https://www.youtube.com/watch?v=mIE9g0209xk&t=6s). Hope you find it helpful :)
+Finally, I posted a detailed tutorial about this project on [YouTube](https://www.youtube.com/watch?v=mIE9g0209xk&t=6s). Hope you find it helpful :)
