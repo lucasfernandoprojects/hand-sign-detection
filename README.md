@@ -14,7 +14,7 @@ During my AI studies, I thought, what if I could create a computer vision system
 
 ## Context
 
-To create this project, I got studying a specific subject inside Computer Vision called Object Recognition. This is a technology that enables computers to identify and label objects within images or videos. It works similarly to how humans recognize and name things they see. In order to create an object recognition system, you'll generally follow five steps:
+To create this project, I had to study a specific subject inside Computer Vision called Object Recognition. This is a technology that enables computers to identify and label objects within images or videos. It works similarly to how humans recognize and name things they see. In order to create an object recognition system, you'll generally follow five steps:
 
 1. Image input: You need data to train the model, so you’ll probably use a camera or another device to capture the images and videos you need for the dataset;
 2. Preprocessing: In this step, the developer cleans up the dataset to improve its quality and reduce the chances of poor model performance;
