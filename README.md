@@ -58,10 +58,7 @@ It was a cool project that taught me a lot about Computer Vision and how AI mode
 
 The directories _training-results_ and _validation-results_ contains some predictions the model performed during training on the training and validation dataset, as you can see right below. The training dataset was augmentated - it means new images were producted from the original ones to add variety to the training set and, therefore, avoid over-fitting.
 
-<figure>
-    <img src="https://github.com/lucasfernandoprojects/hand-sign-detection/blob/main/training-results/train_batch2642.jpg" alt="Training results - train_batch2642" />
-    <figcaption>This is a caption describing the image above.</figcaption>
-</figure>
+![Training results - train_batch2642](https://github.com/lucasfernandoprojects/hand-sign-detection/blob/main/training-results/train_batch2642.jpg)
 
 ![Validation results - val_batch2_pred](https://github.com/lucasfernandoprojects/hand-sign-detection/blob/main/validation-results/val_batch2_pred.jpg)
 
