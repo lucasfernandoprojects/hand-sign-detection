@@ -30,6 +30,6 @@ After defining the problem and desired outcome, the first step to develop the AI
 
 I needed photos of hands seals to train the model. Originally, there are 12 distinct hands seals in the Naruto universe, and these were exactly what the system needed to learn to identify.
 
-![Naruto performing the twelve basic hands seals]()
+![Naruto performing the twelve basic hands seals](https://github.com/lucasfernandoprojects/hand-sign-detection/blob/main/gifs/all-basic-hands-seals.jpg)
 
 A detailed tutorial about this project was posted on [YouTube](https://www.youtube.com/watch?v=mIE9g0209xk&t=6s).
