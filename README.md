@@ -19,7 +19,7 @@ To create this project, I got studying a specific subject inside Computer Vision
 1. Image input: You need data to train the model, so you’ll probably use a camera or another device to capture the images and videos you need for the dataset;
 2. Preprocessing: In this step, the developer cleans up the dataset to improve its quality and reduce the chances of poor model performance;
 3. Feature extraction: This goal is reached by the artificial intelligence algorithm. It identifies important parts of the image, such as shapes and textures, that help the model analyze the data;
-4. Compasiron: This step is also performed by the AI. At this step, the model compares the features it identified previously to a database of known objects to find matches;
+4. Comparison: This step is also performed by the AI. At this step, the model compares the features it identified previously to a database of known objects to find matches;
 5. Prediction: Finally, the computer labels the objects it recognized in the image, often drawing boxes around them to highlight their locations.
 
 This structured process allows the application to accurately recognize and provide useful information about objects captured in the images. That’s why this technique is crucial for various tools like self-driving cars, facial recognition for security systems, and inspecting products on an assembly line.
@@ -31,5 +31,14 @@ After defining the problem and desired outcome, the first step to develop the AI
 I needed photos of hands seals to train the model. Originally, there are 12 distinct hands seals in the Naruto universe, and these were exactly what the system needed to learn to identify.
 
 ![Naruto performing the twelve basic hands seals](https://github.com/lucasfernandoprojects/hand-sign-detection/blob/main/gifs/all-basic-hands-seals.jpg)
+
+I wrote a Python script that accessed my webcam and took 100 photos of each hand seal. The program repeated this process 12 times, each time capturing a different hand seal. In the end, I had a database of 1,200 images. This task were performed by the script _collect_images.py_
+
+Next, I needed to label the data. When working with object recognition, you must tell the model where the object is located in each image. For this task, I used a special software called [CVAT](https://www.cvat.ai/).
+
+I uploaded the images to CVAT, labeled them according to the hand seal it represented, and then exported the annotations into the YOLO format.
+
+![CVAT tasks.]()
+![CVAT annotation of the first photo of the eighth class.]()
 
 A detailed tutorial about this project was posted on [YouTube](https://www.youtube.com/watch?v=mIE9g0209xk&t=6s).
