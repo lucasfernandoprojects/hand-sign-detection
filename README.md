@@ -39,6 +39,7 @@ Next, I needed to label the data. When working with object recognition, you must
 I uploaded the images to CVAT, labeled them according to the hand seal it represented, and then exported the annotations into the YOLO format.
 
 ![CVAT tasks.](https://github.com/lucasfernandoprojects/hand-sign-detection/blob/main/photos-readme/cvat-tasks.jpg)
+
 ![CVAT annotation of the first photo of the eighth class.](https://github.com/lucasfernandoprojects/hand-sign-detection/blob/main/photos-readme/cvat-annotation-class-7.jpg)
 
 If you open one of these annotation files, you’ll see five numbers arranged in one line. The first value represents the class (the hand seal). The second and third numbers are the coordinates of the bounding box center, while the fourth and fifth values represent the width and height of the box respectively.
@@ -57,7 +58,11 @@ It was a cool project that taught me a lot about Computer Vision and how AI mode
 
 The directories _training-results_ and _validation-results_ contains some predictions the model performed during training on the training and validation dataset, as you can see right below. The training dataset was augmentated - it means new images were producted from the original ones to add variety to the training set and, therefore, avoid over-fitting.
 
-![Training results - train_batch2642](https://github.com/lucasfernandoprojects/hand-sign-detection/blob/main/training-results/train_batch2642.jpg)
+<figure>
+    <img src="https://github.com/lucasfernandoprojects/hand-sign-detection/blob/main/training-results/train_batch2642.jpg" alt="Training results - train_batch2642" />
+    <figcaption>This is a caption describing the image above.</figcaption>
+</figure>
+
 ![Validation results - val_batch2_pred](https://github.com/lucasfernandoprojects/hand-sign-detection/blob/main/validation-results/val_batch2_pred.jpg)
 
 Furthermore, I posted a detailed tutorial about this project on [YouTube](https://www.youtube.com/watch?v=mIE9g0209xk&t=6s). Hope you find it helpful :)
