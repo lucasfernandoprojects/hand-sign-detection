@@ -1,6 +1,6 @@
 # Hands Seals Detection
 
-In this repository, you will find an AI project that aims to detect Naruto's hands seals in real time, as you can see in the GIF below:
+In this repository, you will find an AI project that aims to detect Naruto hands seals in real time, as you can see in the GIF below:
 
 ![A man doing hand gestures in front of a webcam.](https://github.com/lucasfernandoprojects/hand-sign-detection/blob/main/photos-readme/giphy.gif)
 
